@@ -32,4 +32,16 @@ The pre-processing steps that are involved are:
 6. `lemmatizer.lemmatize(word)`: This method returns the root of the word.
 
 ## Bag of Words
+1. A bag-of-words model, or BoW for short, is a way of extracting features from text for use in modeling, such as with machine learning algorithms.
+2. This procedure will convert the textual data of sentences into vectors by counting the number of occurances of the words in a sentence.
+3. `from sklearn.feature_extraction.text import CountVectorizer`: I have used CountVectorizer to acheive this task which is a part of the sklearn library.
+4. `cv.fit_transform(corpus).toarray()`: This statemnt will calculate the vectors for every sentence and return a matrix containing words as columns and sentences as rows.
+5. The disadvantage of BoW is that it offers importance to the words based on their number of occurances which will not be helpful in the case where there may be very important keywords which may occur in less number. 
+
+## Term Frequency - Inverse Document Frequency(TF-IDF)
+1. Term Frequncy: Ratio of number of occurances of the word to the number of words in the sentence. 
+2. Inverse Document Frequency: Ratio of logarithm of number of sentences to the number of sentences containing the word.
+3. TF-IDF: Its the product of term frequency and Inverse Document frequency.
+4. `from sklearn.feature_extraction.text import TfidfVectorizer`: TfidfVectorizer class will implement this procedure which is included in sklearn library.
+5. `X=tfidf.fit_transform(corpus).toarray()`: This statement will calculate the vectors by multiplying TF and IDF.
 
