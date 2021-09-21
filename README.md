@@ -15,6 +15,7 @@ This repository contains implementations of **Natural language processing** tech
 2. I have used **nltk** library to implement this procedure
 3. `nltk.sent_tokenize(paragraph)` is a function which breaks down a paragraph into a list of sentences and returns the list.
 4. `nltk.word_tokenize(paragraph)` is a function which breaks down a paragraph into a list of words and returns the list.
+
 ![Tokenization image](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/07/Screenshot-from-2019-07-05-13-50-56.png) 
 
 ## Stemming
