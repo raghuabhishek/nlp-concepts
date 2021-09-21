@@ -1,4 +1,4 @@
-# nlp-concepts
+# NLP-concepts
 This repository contains implementations of all preprocessing that are required to analyze textual information.
 
 The pre-processing steps that are involved are:
