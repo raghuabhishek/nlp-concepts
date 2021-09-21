@@ -3,7 +3,7 @@ This repository contains implementations of **Natural language processing** tech
 
 ![ NLP Image ](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f5afcbb8de14d399113ebc7%2F4-Simple-Ways-Businesses-Can-Use-Natural-Language-Processing%2F960x0.jpg%3Ffit%3Dscale)
 
-The pre-processing steps that are involved are:
+The NLP techniques are as follows:
 1. **Tokenization**
 2. **Stemming**
 3. **Lemmatization**
