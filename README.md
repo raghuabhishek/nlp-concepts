@@ -15,6 +15,7 @@ The NLP techniques are as follows:
 2. I have used **nltk** library to implement this procedure
 3. `nltk.sent_tokenize(paragraph)` is a function which breaks down a paragraph into a list of sentences and returns the list.
 4. `nltk.word_tokenize(paragraph)` is a function which breaks down a paragraph into a list of words and returns the list.
+![Tokenization image](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/07/Screenshot-from-2019-07-05-13-50-56.png) 
 
 ## Stemming
 1. Stemming is a process of converting the word into its word **stem**.
@@ -32,6 +33,8 @@ The NLP techniques are as follows:
 4. `from nltk.stem import WordNetLemmatizer`: The nltk.stem library is used that has a WordNetLemmatizer class whose functions can be leveraged.
 5. `lemmatizer=WordNetLemmatizer()`: The lemmatizer object is created by instatiating the WordNetLemmatizer class.
 6. `lemmatizer.lemmatize(word)`: This method returns the root of the word.
+
+![Stemming and Lemmatization image](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F4010658%2Ff0e0abfea00346cbdd6b6753a2cb1cb5%2F1_OTjdJlYF5vRIzpBfOw75KA.png?generation=1600866066577474&alt=media)
 
 ## Bag of Words
 1. A bag-of-words model, or BoW for short, is a way of extracting features from text for use in modeling, such as with machine learning algorithms.
