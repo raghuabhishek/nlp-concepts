@@ -8,7 +8,7 @@ The pre-processing steps that are involved are:
 4. **Bag of Words(BOW)**
 5. **Term Frequency-Inverse Document Frequency(TF-IDF)**
 
-##Tokenization
+## Tokenization
 1. The tokenization is a process of breadking down a paragraph/corpus into a set of sentences/documents and words. 
 2. I have used nltk library to implement this procedure
 3. `nltk.sent_tokenize(paragraph)` is a function which breaks down a paragraph into a list of sentences and returns the list.
