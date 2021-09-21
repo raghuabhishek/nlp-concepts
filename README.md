@@ -27,4 +27,9 @@ The pre-processing steps that are involved are:
 1. Lemmatization is a process of converting the word into its root/dictionary form.
 2. In lemmatization, the word will be reduced to its root form based on the parts of speech of that word. Example: historical => history.
 3. I have used WordNet lemmatizer which has a collection of english words in different parts of speech.
-4. 
+4. `from nltk.stem import WordNetLemmatizer`: The nltk.stem library is used that has a WordNetLemmatizer class whose functions can be leveraged.
+5. `lemmatizer=WordNetLemmatizer()`: The lemmatizer object is created by instatiating the WordNetLemmatizer class.
+6. `lemmatizer.lemmatize(word)`: This method returns the root of the word.
+
+## Bag of Words
+
