@@ -1,4 +1,4 @@
-# NLP-concepts
+# Natural Language Processing-concepts
 This repository contains implementations of **Natural language processing** techniques using **Python** programming language.
 
 ![ NLP Image ](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f5afcbb8de14d399113ebc7%2F4-Simple-Ways-Businesses-Can-Use-Natural-Language-Processing%2F960x0.jpg%3Ffit%3Dscale)
