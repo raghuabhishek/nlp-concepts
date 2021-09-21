@@ -2,10 +2,10 @@
 This repository contains implementations of all preprocessing that are required to analyze textual information.
 
 The pre-processing steps that are involved are:
-**1. Tokenization **
-2. Stemming 
-3. Lemmatization
-4. Bag of Words(BOW)
+1. **Tokenization**
+2. **Stemming**
+3. **Lemmatization**
+4. **Bag of Words(BOW)**
 5. Term Frequency-Inverse Document Frequency(TF-IDF) 
 
 ##Tokenization
