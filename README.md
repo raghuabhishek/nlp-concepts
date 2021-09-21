@@ -1,5 +1,5 @@
 # NLP-concepts
-This repository contains implementations of all preprocessing that are required to analyze textual information.
+This repository contains implementations of natural language processing techniques using Python programming language.
 
 The pre-processing steps that are involved are:
 1. **Tokenization**
