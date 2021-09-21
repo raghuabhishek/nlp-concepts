@@ -1,6 +1,8 @@
 # NLP-concepts
 This repository contains implementations of **Natural language processing** techniques using **Python** programming language.
 
+![ NLP Image ](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f5afcbb8de14d399113ebc7%2F4-Simple-Ways-Businesses-Can-Use-Natural-Language-Processing%2F960x0.jpg%3Ffit%3Dscale)
+
 The pre-processing steps that are involved are:
 1. **Tokenization**
 2. **Stemming**
@@ -43,5 +45,5 @@ The pre-processing steps that are involved are:
 2. **Inverse Document Frequency**: Ratio of logarithm of number of sentences to the number of sentences containing the word.
 3. **TF-IDF**: Its the product of term frequency and Inverse Document frequency.
 4. `from sklearn.feature_extraction.text import TfidfVectorizer`: TfidfVectorizer class will implement this procedure which is included in sklearn library.
-5. `X=tfidf.fit_transform(corpus).toarray()`: This statement will calculate the vectors by multiplying TF and IDF.
+5. `tfidf.fit_transform(corpus).toarray()`: This statement will calculate the vectors by multiplying TF and IDF.
 
