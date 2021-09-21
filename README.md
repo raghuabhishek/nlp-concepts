@@ -13,3 +13,18 @@ The pre-processing steps that are involved are:
 2. I have used nltk library to implement this procedure
 3. `nltk.sent_tokenize(paragraph)` is a function which breaks down a paragraph into a list of sentences and returns the list.
 4. `nltk.word_tokenize(paragraph)` is a function which breaks down a paragraph into a list of words and returns the list.
+
+## Stemming
+1. Stemming is a process of converting the word into its word stem.
+2. In Stemming algorithm, the common affixes will be removed from the word to get the root of the word based on fixed rules. Example: > historical => histori
+4. The common algorithms in stemming are Porter, Lancaster, etc. I have used Porter Stemming algorithm in my code.
+5. The disadvantage of stemming is it may result in overstemming (When it removes the part of the word more than the required) or understemming ( When it removes less part of the word than required).
+6. `from nltk.stem import PorterStemmer`: The nltk.stem library contains the class PorterStemmer which can be used for stemming.
+7. `stemmer=PorterStemmer()`: An instance of the PorterStemmer class needs to be created to invoke the functions under it.
+8. `stemmer.stem(word)`:  This method returns the stemmed word.
+
+## Lemmatization
+1. Lemmatization is a process of converting the word into its root/dictionary form.
+2. In lemmatization, the word will be reduced to its root form based on the parts of speech of that word. Example: historical => history.
+3. I have used WordNet lemmatizer which has a collection of english words in different parts of speech.
+4. 
