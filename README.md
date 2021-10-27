@@ -53,3 +53,5 @@ This repository contains implementations of **Natural language processing** tech
 4. `from sklearn.feature_extraction.text import TfidfVectorizer`: TfidfVectorizer class will implement this procedure which is included in sklearn library.
 5. `tfidf.fit_transform(corpus).toarray()`: This statement will calculate the vectors by multiplying TF and IDF.
 ![tf-idf image](https://miro.medium.com/max/1200/1*qQgnyPLDIkUmeZKN2_ZWbQ.png)
+
+
